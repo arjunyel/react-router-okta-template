@@ -1,5 +1,5 @@
 import eslint from "@eslint/js";
-import { defineConfig } from "eslint/config";
+import { defineConfig, globalIgnores } from "eslint/config";
 import tseslint from "typescript-eslint";
 import reactPlugin from "eslint-plugin-react";
 import reactHooksPlugin from "eslint-plugin-react-hooks";
@@ -19,5 +19,21 @@ export default defineConfig(
         projectService: true,
       },
     },
-  }
+    rules: {
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        {
+          args: "all",
+          argsIgnorePattern: "^_",
+          caughtErrors: "all",
+          caughtErrorsIgnorePattern: "^_",
+          destructuredArrayIgnorePattern: "^_",
+          varsIgnorePattern: "^_",
+          ignoreRestSiblings: true,
+        },
+      ],
+      "@typescript-eslint/only-throw-error": "off",
+    },
+  },
+  globalIgnores(["dist/**", "node_modules/**", "build/**", "eslint.config.mjs"])
 );

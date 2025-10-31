@@ -1,31 +1,43 @@
 # Welcome to React Router!
 
-A minimal template for experimenting with React Router v7.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/minimal)
-
-> ![NOTE]
-> This template should not be used for production apps and is intended more for experimentation and demo applications. Please see the [default](https://github.com/remix-run/react-router-templates/tree/main/default) template for a more full-featured template.
-
 ## Getting Started
 
-### Installation
+- Auth via Okta
+- Styling using TailwindCSS.
+- Data fetching via Ky
 
-Install the dependencies:
+### Setup
 
-```bash
-npm install
-```
+1. .env
+
+   ```env
+   VITE_OKTA_DOMAIN=
+   VITE_OKTA_CLIENT_ID=
+   ```
+
+2. Install dependencies
+
+   ```bash
+   npm i
+   ```
 
 ### Development
 
 Start the development server with HMR:
 
 ```bash
-npm run dev
+node --run dev
 ```
 
 Your application will be available at `http://localhost:5173`.
+
+### Build
+
+Files will be in `/build`
+
+```bash
+node --run build
+```
 
 ---
 
