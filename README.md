@@ -34,7 +34,7 @@ Your application will be available at `http://localhost:5173`.
 
 ### Build
 
-Files will be in `/build`
+Files will be in `/build/client`
 
 ```bash
 node --run build
