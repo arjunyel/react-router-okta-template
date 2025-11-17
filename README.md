@@ -13,6 +13,7 @@
    ```env
    VITE_OKTA_DOMAIN=
    VITE_OKTA_CLIENT_ID=
+   VITE_BACKEND_API_URL=
    ```
 
 2. Install dependencies

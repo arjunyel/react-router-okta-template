@@ -11,20 +11,20 @@
   "dependencies": {
     "@okta/okta-auth-js": "^7.14.0",
     "@okta/okta-react": "^6.10.0",
-    "@react-router/node": "^7.9.5",
-    "@react-router/serve": "^7.9.5",
+    "@react-router/node": "^7.9.6",
+    "@react-router/serve": "^7.9.6",
     "isbot": "^5.1.32",
     "ky": "^1.14.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-router": "^7.9.5"
+    "react-router": "^7.9.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
-    "@react-router/dev": "^7.9.5",
+    "@react-router/dev": "^7.9.6",
     "@tailwindcss/vite": "^4.1.17",
     "@types/node": "^24.10.1",
-    "@types/react": "^19.2.4",
+    "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
     "eslint": "^9.39.1",
     "eslint-plugin-jsx-a11y": "^6.10.2",

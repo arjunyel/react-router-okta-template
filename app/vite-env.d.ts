@@ -1,6 +1,7 @@
 interface ImportMetaEnv {
   readonly VITE_OKTA_DOMAIN: string;
   readonly VITE_OKTA_CLIENT_ID: string;
+  readonly VITE_BACKEND_API_URL: string;
 }
 
 interface ImportMeta {

@@ -2,7 +2,7 @@ import ky from "ky";
 import { oktaAuthInstance } from "./auth";
 
 const api = ky.create({
-  // prefixUrl: "API URL HERE"
+  prefixUrl: import.meta.env.VITE_BACKEND_API_URL,
   hooks: {
     beforeRequest: [
       async (request) => {
